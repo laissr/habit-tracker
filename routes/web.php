@@ -2,4 +2,4 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get(uri: '/', [\App\Http\Controllers\SiteController::class, 'index']);
+Route::get('/', [App\Http\Controllers\SiteController::class, 'index']);
