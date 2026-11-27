@@ -6,6 +6,11 @@ class SiteController extends Controller
 {
     public function index()
     {
-        return view('home');
+        return view(view:'home');
+    }
+
+    public function dashboard()
+    {
+        return view(view:'dashboard');
     }
 }
